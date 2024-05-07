@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<script src="scriptFile.js"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="image/logo.png" class="logo"> -->
+                <h1 class="logo">Ankit sharma</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi, My name is <span1>Ankit</span1><br> I'm a <span>Backend Developer</span></h1>
+        </div>
+        <!-- -------------------About------------------- -->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/photo.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aut expedita distinctio sint saepe eligendi, voluptas reprehenderit mollitia, laborum commodi, ipsam culpa officiis nostrum esse! Doloremque, fugiat deserunt. Odio inventore provident velit molestiae cupiditate aspernatur nihil numquam reprehenderit dolore, iure nostrum unde! Aliquid officia id error labore quos eaque illo.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Backend</span><br>Javab<br>Spring Boot <br> Python</li>
+                            <li><span>Frontend</span><br>HTML, CSS, JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>Signimus technology pvt. ltd.<br>Spring Boot <br> Python</li>
+                            <!-- <li><span>Frontend</span><br>HTML, CSS, JavaScript</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MCA</span><br>RGPV<br>Spring Boot <br> Python</li>
+                            <li><span>Frontend</span><br>HTML, CSS, JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------Services--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ipsa facere exercitationem minus possimus soluta ut quos id in quidem.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>Spring Boot Developer</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ipsa facere exercitationem minus possimus soluta ut quos id in quidem.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>Web Designing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ipsa facere exercitationem minus possimus soluta ut quos id in quidem.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
