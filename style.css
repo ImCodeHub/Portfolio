@@ -12,6 +12,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 #header {
@@ -26,6 +27,7 @@ body {
     /* background-color: rgb(241, 12, 12); */
     /* padding: 10px 10%; */
     position: relative;
+    
     
 }
 
